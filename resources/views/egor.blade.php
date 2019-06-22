@@ -1,1 +1,6 @@
-<h1>ЕГОР</h1>
+Route::has('testcontroller@calcFive')
+
+
+<h1>ЕГОР {{ $calcFiveeee }}</h1>
+
+
