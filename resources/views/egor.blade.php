@@ -1,6 +1,3 @@
-Route::has('testcontroller@calcFive')
-
-
-<h1>ЕГОР {{ $calcFiveeee }}</h1>
+<h1>ЕГОР - {{ $hello }} + {{ $evrey }}</h1>
 
 

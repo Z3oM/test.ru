@@ -1,11 +1,9 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\User;
 use App\Http\Controllers\Controller;
-
-
+use App;
 
 class TestController extends Controller
 {
@@ -15,7 +13,11 @@ class TestController extends Controller
 	$a = 10;
 	$b = $a + 62;
 	  
-    return view('egor', ['calcFiveeee' => 'asdasdsdad']);
+    return view('egor', [
+		'hello'=>$b,
+		'evrey'=>$a
+		
+	]);
   }
   
   

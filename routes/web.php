@@ -21,5 +21,11 @@ Route::get('/grisha', function () {
 
 
 Route::get('/egor', function () {
-    return view('egor');
+    return view('egor', [
+		'Named' => 'ЕгорКа!'
+	
+	]);
 });
+
+
+Route::get('egor', 'testcontroller@calcFive');
